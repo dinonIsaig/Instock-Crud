@@ -131,7 +131,7 @@ if (isset($_POST["submit_deletion"])) {
     </div>
 
     <div class="position-fixed top-0 start-0 px-5 py-4">
-        <a href="production.php"> <img src="InStock.png" alt="InStock Logo" style="height: 30px;"> </a>
+        <a href="index.php"> <img src="Assets\logo.png" alt="InStock Logo" style="height: 30px;"> </a>
     </div>
 
     <div class="container">
