@@ -1,14 +1,20 @@
 
 <p align="center">
-  # Instock 📊 /br
   <img src="https://github.com/dinonIsaig/Instock-Crud/blob/main/Assets/logo.png" alt="InStock Logo" width="200">
 </p>
+
+
 
 ## 🗂️ About the Repository
 
 This repository contains the code and assets for **InStock**, a web-based inventory management system developed by **BSIT 2-5, S.Y. 2024–2025**. Built using **PHP with MySQL**, InStock is a CRUD (Create, Read, Update, Delete) application designed to help warehouse companies, logistics providers, and production teams efficiently manage their inventory.
 
+---
+
 ## 🖥️ Technology Used 
+
+---
+
 💻 **PHP**  
 A server-side scripting language used for dynamic web development.
 
@@ -17,6 +23,8 @@ A server-side scripting language used for dynamic web development.
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg " alt="PHP" width="40" height="40"/>
 </a>
 </p>
+
+---
 
 💻 **HTML**  
 The standard markup language used to create and structure web pages.
@@ -27,6 +35,8 @@ The standard markup language used to create and structure web pages.
 </a>
 </p>
 
+---
+
 🎨 **CSS**  
 A stylesheet language used to control the presentation and layout of web pages.
 
@@ -35,6 +45,8 @@ A stylesheet language used to control the presentation and layout of web pages.
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg " alt="CSS3" width="40" height="40"/>
 </a>
 </p>
+
+---
 
 ⚙️ **Bootstrap**  
 A popular front-end framework for developing responsive and mobile-first websites.
