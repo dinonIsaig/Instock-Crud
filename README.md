@@ -118,5 +118,5 @@ CREATE TABLE `logistics` (
 ```
 
 ## Copy files to htdocs folder
-Download the above files. Create a folder inside htdocs folder in xampp directory. Finally, copy ur created folder inside htdocs folder. Now, visit localhost/"name of your folder" in your browser and you should see the application.
+Download the above files. Create a folder inside htdocs folder in xampp directory. Finally, copy your created folder inside htdocs folder. Now, visit localhost/"name of your folder" in your browser and you should see the application.
 
