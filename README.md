@@ -56,3 +56,67 @@ A popular front-end framework for developing responsive and mobile-first website
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg " alt="Bootstrap" width="40" height="40"/>
 </a>
 </p>
+---
+
+# PHP Complete CRUD Application
+
+## Creating the Database Tables
+
+Create a table named `crud` inside your MySQL database using the following code.
+
+```sql
+CREATE TABLE `user` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `first_name` varchar(50) NOT NULL,
+    `last_name` varchar(50) NOT NULL,
+    `email` varchar(100) NOT NULL,
+    `password` varchar(255) NOT NULL,
+    `accType` varchar(50) NOT NULL,
+    PRIMARY KEY (`id`)
+);
+
+```sql
+CREATE TABLE `user` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `first_name` varchar(50) NOT NULL,
+    `last_name` varchar(50) NOT NULL,
+    `email` varchar(100) NOT NULL,
+    `password` varchar(255) NOT NULL,
+    `accType` varchar(50) NOT NULL,
+    PRIMARY KEY (`id`)
+);
+
+```sql
+CREATE TABLE `production` (
+    `ProductionID` int(11) NOT NULL AUTO_INCREMENT,
+    `UserID` int(11) NOT NULL,
+    `ProductName` varchar(25) NOT NULL,
+    `DateProduced` date NOT NULL,
+    `Quantity` int(11) NOT NULL,
+    PRIMARY KEY (`ProductionID`),
+);
+
+```sql
+CREATE TABLE `warehouse` (
+    `StockID` int(11) NOT NULL AUTO_INCREMENT,
+    `UserID` int(11) NOT NULL,
+    `ProductName` varchar(25) NOT NULL,
+    `PricePerUnit` varchar(25) NOT NULL,
+    `AvailableStocks` int(11) NOT NULL,
+    PRIMARY KEY (`StockID`),
+);
+
+```sql
+CREATE TABLE `logistics` (
+    `TransactionID` int(6) NOT NULL AUTO_INCREMENT,
+    `UserID` int(11) NOT NULL,
+    `OrderName` varchar(25) NOT NULL,
+    `DateOrdered` date NOT NULL,
+    `Quantity` int(4) NOT NULL,
+    PRIMARY KEY (`TransactionID`),
+);
+
+
+
+
+
