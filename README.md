@@ -1,6 +1,6 @@
-# Instock 📊
 
 <p align="center">
+  # Instock 📊 /br
   <img src="https://github.com/dinonIsaig/Instock-Crud/blob/main/Assets/logo.png" alt="InStock Logo" width="200">
 </p>
 
