@@ -62,20 +62,9 @@ A popular front-end framework for developing responsive and mobile-first website
 
 ## Creating the Database Tables
 
-Create a table named `crud` inside your MySQL database using the following code.
+Create tables named `user` |`production`|`warehouse`|`logistics`| inside your MySQL database using the following code.
 
 ```sql
-CREATE TABLE `user` (
-    `id` int(11) NOT NULL AUTO_INCREMENT,
-    `first_name` varchar(50) NOT NULL,
-    `last_name` varchar(50) NOT NULL,
-    `email` varchar(100) NOT NULL,
-    `password` varchar(255) NOT NULL,
-    `accType` varchar(50) NOT NULL,
-    PRIMARY KEY (`id`)
-);
-
-
 CREATE TABLE `user` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `first_name` varchar(50) NOT NULL,
