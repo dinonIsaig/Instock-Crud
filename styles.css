@@ -1,0 +1,115 @@
+body {
+      background-color: #FBFEFF;
+      font-family: Arial, sans-serif;
+      color: #295D69;
+      
+    }
+
+/*LOGIN CSS */
+    .login-container {
+        display: flex;
+        height: 100vh;
+    }
+    .login-form {
+        width: 40%;
+        padding: 100px;
+    }
+    .login-image {
+        background-image: url('Assets/logIn.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+    .login-image img {
+        max-width: 80%;
+    }
+    .form-group label {
+        font-weight: bold;
+    }
+    .btn-primary {
+        background-color: #295D69;
+        border-color: #295D69;
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        color: #0d2429;
+        background-color: #295D69;
+        border-color: #295D69;
+    }
+
+    .create-account {
+        color: black;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .create-account a {
+        color: #295D69;
+        text-decoration: none;
+    }
+    .create-account a:hover {
+        text-decoration: underline;
+    }
+
+/*REGISTRATION CSS */
+    .bg-image {
+      background-image: url('Assets/signUp.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 40%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .form-container {
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .form-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #295D69;
+
+    }
+    .form-subtitle {
+      color: #6c757d;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .btn-signup {
+      width: 100%;
+      background-color: #295D69;
+      border-color: #295D69;
+      color: #fff;
+      font-weight: bold;
+    }
+    .btn-signup:hover {
+      color: #0d2429;
+      background-color: #295D69;
+      border-color: #295D69;
+    }
+    .already-account {
+        color: black;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .already-account a {
+      color: #295D69;
+      text-decoration: none;
+    }
+    .already-account a:hover {
+      text-decoration: underline;
+    }
