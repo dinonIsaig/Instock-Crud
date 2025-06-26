@@ -75,7 +75,7 @@ CREATE TABLE `user` (
     PRIMARY KEY (`id`)
 );
 
-```sql
+
 CREATE TABLE `user` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `first_name` varchar(50) NOT NULL,
@@ -86,7 +86,7 @@ CREATE TABLE `user` (
     PRIMARY KEY (`id`)
 );
 
-```sql
+
 CREATE TABLE `production` (
     `ProductionID` int(11) NOT NULL AUTO_INCREMENT,
     `UserID` int(11) NOT NULL,
@@ -96,7 +96,7 @@ CREATE TABLE `production` (
     PRIMARY KEY (`ProductionID`),
 );
 
-```sql
+
 CREATE TABLE `warehouse` (
     `StockID` int(11) NOT NULL AUTO_INCREMENT,
     `UserID` int(11) NOT NULL,
@@ -106,7 +106,7 @@ CREATE TABLE `warehouse` (
     PRIMARY KEY (`StockID`),
 );
 
-```sql
+
 CREATE TABLE `logistics` (
     `TransactionID` int(6) NOT NULL AUTO_INCREMENT,
     `UserID` int(11) NOT NULL,
@@ -115,8 +115,8 @@ CREATE TABLE `logistics` (
     `Quantity` int(4) NOT NULL,
     PRIMARY KEY (`TransactionID`),
 );
+```
 
-
-
-
+## Copy files to htdocs folder
+Download the above files. Create a folder inside htdocs folder in xampp directory. Finally, copy ur created folder inside htdocs folder. Now, visit localhost/"name of your folder" in your browser and you should see the application.
 
