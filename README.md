@@ -1,9 +1,6 @@
-
 <p align="center">
   <img src="https://github.com/dinonIsaig/Instock-Crud/blob/main/Assets/logo.png" alt="InStock Logo" width="200">
 </p>
-
-
 
 ## 🗂️ About the Repository
 
@@ -11,51 +8,48 @@ This repository contains the code and assets for **InStock**, a web-based invent
 
 ---
 
-## 🖥️ Technology Used 
+## 🖥️ Technology Used
+<p align="center" style="white-space: pre; text-decoration: none;">
+    <a href="https://www.php.net/ " target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg " alt="PHP" width="40" height="40"/>
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML " target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg " alt="HTML5" width="40" height="40"/>
+    </a>  
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS " target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg " alt="CSS3" width="40" height="40"/>
+    </a>  
+    <a href="https://getbootstrap.com/ " target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg " alt="Bootstrap" width="40" height="40"/>
+    </a>  
+    <a href="https://www.figma.com/ " target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg " alt="Figma" width="40" height="40"/>
+    </a>  
+    <a href="https://code.visualstudio.com/ " target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg " alt="VSCode" width="40" height="40"/>
+    </a>  
+</p>
 
 ---
 
-💻 **PHP**  
+## 💻 PHP
 A server-side scripting language used for dynamic web development.
 
-<p align="left">
-<a href="https://www.php.net/ " target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg " alt="PHP" width="40" height="40"/>
-</a>
-</p>
+## 📄 HTML5
+The standard markup language for creating web pages.
 
----
+## 🎨 CSS3
+A stylesheet language used to control presentation and layout of web pages.
 
-💻 **HTML**  
-The standard markup language used to create and structure web pages.
+## 📐 Bootstrap
+A front-end framework for responsive, mobile-first web development.
 
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML " target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg " alt="HTML5" width="40" height="40"/>
-</a>
-</p>
+## 📘 Figma
+A cloud-based design tool used to create the user interface of InStock.
 
----
+## 💾 Visual Studio Code
+A lightweight but powerful code editor with support for multiple languages and extensions.
 
-🎨 **CSS**  
-A stylesheet language used to control the presentation and layout of web pages.
-
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS " target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg " alt="CSS3" width="40" height="40"/>
-</a>
-</p>
-
----
-
-⚙️ **Bootstrap**  
-A popular front-end framework for developing responsive and mobile-first websites.
-
-<p align="left">
-<a href="https://getbootstrap.com/ " target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg " alt="Bootstrap" width="40" height="40"/>
-</a>
-</p>
 ---
 
 # PHP Complete CRUD Application
@@ -108,4 +102,3 @@ CREATE TABLE `logistics` (
 
 ## Copy files to htdocs folder
 Download the above files. Create a folder inside htdocs folder in xampp directory. Finally, copy your created folder inside htdocs folder. Now, visit localhost/"name of your folder" in your browser and you should see the application.
-
